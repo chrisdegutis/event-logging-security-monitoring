@@ -154,7 +154,7 @@ You should also see an <b>Audit Success</b> event indicating that the domain con
 
 <hr>
 
-<h2>Step 7: Identify Relevant Event IDs</h2>
+<h2>Step 6: Identify Relevant Event IDs</h2>
 <p>
 Within the Security log, identify the important event types related to the authentication activity generated in this lab.
 </p>
@@ -171,7 +171,7 @@ These Event IDs help administrators determine what occurred, when it occurred, a
 
 <hr>
 
-<h2>Step 8: Verify Group Policy Enforcement</h2>
+<h2>Step 7: Verify Group Policy Enforcement</h2>
 <p>
 Compare the failed login attempts and the lockout event to verify that the account lockout policy was enforced according to the configured Group Policy settings.
 </p>
@@ -186,25 +186,8 @@ This validation is important because it proves that domain-level policies are ac
 
 <hr>
 
-<h2>Step 9: Document Findings</h2>
-<p>
-Record the results of the lab by documenting the important authentication events observed in Event Viewer.
-</p>
 
-<p>
-Your documentation should include:
-</p>
-
-<ul>
-  <li>The failed logon attempts</li>
-  <li>The account lockout event</li>
-  <li>The successful administrator logon used to review the logs</li>
-  <li>The matching timestamps that confirm policy enforcement</li>
-</ul>
-
-<hr>
-
-<h2>Step 10: Conclusion</h2>
+<h2>Conclusion</h2>
 <p>
 In this lab, I used Windows Event Viewer to review authentication-related activity in a domain environment. 
 By intentionally generating failed logon attempts and triggering an account lockout, I was able to observe how Windows records 

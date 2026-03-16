@@ -14,7 +14,7 @@ and confirm that security policies are functioning as intended in a Windows doma
 
 <h2>Prerequisites</h2>
 <p>
-This lab builds on the environment created in the previous project where an on-premises Active Directory environment was deployed in Microsoft Azure.
+This lab builds on the environment created in the <a href="https://github.com/chrisdegutis/ad-domain-deployment">previous project</a> where an on-premises Active Directory environment was deployed in Microsoft Azure.
 Before beginning this lab, the following infrastructure must already be configured:
 </p>
 
@@ -74,7 +74,7 @@ to generate authentication activity for review in Event Viewer.
 Sign in using a domain account with administrative permissions so you can later access Event Viewer and review the Security logs.
 </p>
 
-<p><b>Example login:</b> <code>mydomain.com\jane_admin</code></p>
+<p><b>Example login:</b> <code>mydomain.com\jane_admin</code> <code>Cyberlab123!</code></p>
 
 <hr>
 
@@ -90,7 +90,7 @@ Enter the wrong password multiple times for the test user account until the acco
 <p>
 This step is important because each failed login attempt generates a Security event that can later be reviewed in Event Viewer.
 </p>
-
+<img width="800" height="1338" alt="image" src="https://github.com/user-attachments/assets/6fe5b984-75b1-4316-9b65-855019dd497f" />
 <hr>
 
 <h2>Step 3: Trigger the Account Lockout Policy</h2>
@@ -105,6 +105,7 @@ This confirms that the account lockout policy is being enforced properly through
 <p>
 At this point, the locked-out user should no longer be able to authenticate until the lockout duration expires or the account is manually unlocked by an administrator.
 </p>
+<img width="800" height="1122" alt="image" src="https://github.com/user-attachments/assets/eef0af3a-ecc2-4eec-9914-e1110b389341" />
 
 <hr>
 

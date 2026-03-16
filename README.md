@@ -12,6 +12,12 @@ This lab demonstrates how administrators can monitor login activity, investigate
 and confirm that security policies are functioning as intended in a Windows domain environment.
 </p>
 
+<p>System administrators and security analysts use Windows Security logs to detect
+brute-force attacks, compromised accounts, and unauthorized authentication attempts.</p>
+
+<p>Monitoring failed login events (4625) and account lockouts (4740) allows organizations
+to quickly identify suspicious activity and respond to potential security incidents.</p>
+
 <h2>Prerequisites</h2>
 <p>
 This lab builds on the environment created in the <a href="https://github.com/chrisdegutis/ad-domain-deployment">previous project</a> where an on-premises Active Directory environment was deployed in Microsoft Azure.

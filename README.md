@@ -1,5 +1,7 @@
 <h1>Windows Event Logging and Security Monitoring</h1>
 
+<img width="800" height="1024" alt="azure event logging and security" src="https://github.com/user-attachments/assets/de8599fa-b637-4a7d-ba32-47068bc57d2d" />
+
 <h2>Project Summary</h2>
 <p>
 In this lab, I explored how Windows records authentication and security-related activity through Event Viewer. 

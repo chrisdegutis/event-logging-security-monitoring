@@ -104,7 +104,7 @@ After the configured number of incorrect password attempts is reached, the domai
 </p>
 
 <p>
-This confirms that the <a href="https://github.com/chrisdegutis/ad-user-management-security">account lockout policy</a> is being enforced properly through Group Policy.
+This confirms that the <a href="https://github.com/chrisdegutis/group-policy-adminstration">account lockout policy</a> is being enforced properly through Group Policy.
 </p>
 
 <p>
